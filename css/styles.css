@@ -1,0 +1,55 @@
+.blog-header {
+	padding-top: 20px;
+	border-bottom: 1px solid gray;
+	margin-bottom: 20px;
+}
+
+.name {
+	font-family: 'Overlock SC';
+	margin-top: 10px !important;
+}
+
+address {
+	margin-top: 20px;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.subheading {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.name, .subheading {
+	color: #56b6f0;
+}
+
+profile-content {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+}
+
+small-heading {
+	text-decoration: underline; 
+}
+
+@media print and (color) {
+   * {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+   }
+	.name, .subheading {
+		color:#56b6f0 !important;
+	}
+}
+/*
+@media print {
+	#print_color {
+		color: yellow;
+	}
+	.subheading {
+		color:yellow;
+	}
+}*/
+
+
