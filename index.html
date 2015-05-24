@@ -25,18 +25,17 @@
 					<small-heading>Contact info</small-heading><br>
 					<small>
 						<p>
-						E-202, Vasant Avenue,<br>
-						Pimple Saudagar, Pune 411027<br>
-						<abbr title="Mobile">Ph:</abbr> +91 901 109 0442
+							E-202, Vasant Avenue,<br>
+							Pimple Saudagar, Pune 411027<br>
+							<abbr title="Mobile">Ph:</abbr> +91 901 109 0442
 						</p>
 					</small>
 				</address>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-sm-8 profile">
-				<h3>Profile and Objective</h3>
-				<profile-content>
+		<profile class="row col-sm-12">
+			<h3>Profile and Objective</h3>
+			<content>
 				<p>I am a hands-on software developer. My interest areas are:</p>
 				<ul>
 					<li>Design principles and patterns</li>
@@ -44,12 +43,102 @@
 					<li>Dabbling with new technologies</li>
 				</ul>
 				<p>I am currently an Associate Technical Manager at GSLab. I oversee multiple projects and I am a hands-on developer in one. I have worked on web-based solutions for domains like Product distribution and e-Commerce. Prior to GSLab I have developed solutions for customers in the Product Lifecycle Management space.
-				<br>In the long term I aspire to work as a consultant with expertise in Software product design & development, Business analysis and project execution.
+					<br>In the long term I aspire to work as a consultant with expertise in Software product design & development, Business analysis and project execution.
 				</p>
-				</profile-content>
-			</div>
-		</div>
-		
+			</content>
+		</profile>
+		<skill-summary class="row col-sm-12">
+			<h3>Skill Summary</h3>
+			<content class="col-sm-8">
+				<table class="table table-centered">
+					<thead>
+						<th>Skill area</th>
+						<th>Details</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Programming languages</td>
+							<td>Java, Javascript, Golang, Scala</td>
+						</tr>
+						<tr>
+							<td>Server side Frameworks</td>
+							<td>Spring, Hibernate, Play Framework(Java), Sparkjava, evolved a framework using Golang.</td>
+						</tr>
+						<tr>
+							<td>Client side Frameworks</td>
+							<td>AngularJS, ExtJs, Jquery</td>
+						</tr>
+						<tr>
+							<td>Databases</td>
+							<td>RDBMSs(MySQL, PostgreSQL, Oracle), NoSQL DBs(Elasticsearch, Mongodb, Redis)</td>
+						</tr>
+						<tr>
+							<td>Design aspects</td>
+							<td>Design principles and patterns, SOLID principles, Design evolution.</td>
+						</tr>
+						<tr>
+							<td>Development methodologies</td>
+							<td>Agile, Waterfall</td>
+						</tr>
+						<tr>
+							<td>Team / people management</td>
+							<td>Have managed teams of various sizes</td>
+						</tr>
+						<tr>
+							<td>Project management</td>
+							<td>Estimation, project planning and tracking.</td>
+						</tr>
+					</tbody>
+				</table>
+			</content>
+		</skill-summary>
+		<experience class="row col-sm-12">
+			<h3>Experience Details</h3>
+			<exp-header>
+				<p>Associate Technical Manager - GSLab - Jan 2014 till date.</p>
+			</exp-header>
+			<project-header>
+				Data intensive e-Commerce application for chemical industry.
+			</project-header>
+			<content>
+			<p>
+				The customer's objective was to break out of the current CMS based e-Commerce implementation and provide a cloud based, scalable market place for his products.<br> 
+				<b>Challenges:</b>
+				<ul>
+					<li>The product catalog was around 12M products to begin with and was expected to grow exponentially. </li>
+					<li>The product attributes were many and searches were crucial.</li>
+				</ul>
+				<b>Role & Contribution:</b>
+				<ul>
+					<li>Lead a team of 3 to design and build a solution.</li>
+					<li>Designed a tiered architecture using Magento Community edition as the e-Commerce platform. Elasticsearch(Elastic) as the search database.</li>
+					<li>Built the inner layers of the application using Golang and Elasticsearch to acheive the customer's performance requirements.</li>
+					<li>Consulted with the customer to resolve issues in their current product catalog and deviced a scalable, cloud(AWS) based architecture.</li>
+				</ul>
+			</p>
+			</content>
+			<project-header>
+				Realtime sentiment analysis dashboard using Twitter & Spark-streaming
+			</project-header>
+			<content>
+			<p>
+				This was a internal project engage customers to get insights into their products public perception based on Tweet sentiments. Users can type in terms that they are interested in and will be shown a dashboard based on various parameters to indicate realtime-sentiment. Here's a link to the site.
+				<b>Challenges:</b>
+				<ul>
+					<li>Evaluating various visualization model and arriving at a model that engages the customer well.</li>
+					<li>Evolving an architecture that wouls potentially scale.</li>
+				</ul>
+				<b>Role & Contribution:</b>
+				<ul>
+					<li>Lead a team of 3 to design and build a solution.</li>
+					<li>Prototyped the server side components using Spark, Scala to provide a websocket based interface to client appilcations.</li>
+					<li>Reviewed and overall architecture.</li>
+					<li>Evaluated various visualizations.</li>
+				</ul>
+			</p>
+			</content>
+		</experience>
+
 	</div>
 </body>
 </html>

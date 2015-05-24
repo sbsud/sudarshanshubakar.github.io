@@ -24,9 +24,32 @@ address {
 	color: #56b6f0;
 }
 
-profile-content {
+content {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 10pt;
+	/*margin-bottom: 5%;*/	
+}
+
+exp-header {
+	font-weight: bold;
+	font-style: italic;
+	color: #56b6f0;	
+}
+
+project-header {
+	font-weight: bold;
+	text-decoration: underline;
+	margin-top: 20px;
+}
+
+skill-summary {
+	/*margin-bottom: 1%;*/
+}
+
+.table-centered {
+	width: auto;
+	margin: 0 auto !important;
+  	float: none !important;
 }
 
 small-heading {
