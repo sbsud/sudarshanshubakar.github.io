@@ -27,7 +27,6 @@ address {
 content {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 10pt;
-	/*margin-bottom: 5%;*/	
 }
 
 exp-header {
@@ -36,10 +35,13 @@ exp-header {
 	color: #56b6f0;	
 }
 
+.space-above{
+	margin-top: 30px;
+}
+
 project-header {
 	font-weight: bold;
 	text-decoration: underline;
-	margin-top: 20px;
 }
 
 skill-summary {
